@@ -1,0 +1,113 @@
+# Microsoft Developer Studio Generated Dependency File, included by SynthPlugIn.mak
+
+.\Filter.cpp : \
+	".\Filter.h"\
+	".\include\CakeMedParam.h"\
+	".\include\DeferZeroFill.h"\
+	".\include\DXi.h"\
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\MediaParams.h"\
+	".\ParamEnvelope.h"\
+	".\Parameters.h"\
+	".\PlugInGUIDs.h"\
+	".\SoftSynth.h"\
+	".\StdAfx.h"\
+	".\SynthPlugIn.h"\
+	".\SynthPlugInPropPage.h"\
+	
+
+.\Instrument.cpp : \
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\Instrument.h"\
+	".\StdAfx.h"\
+	".\StringMap.h"\
+	
+
+.\MediaParams.cpp : \
+	".\include\CakeMedParam.h"\
+	".\include\CakeMedParam_i.c"\
+	".\include\DeferZeroFill.h"\
+	".\include\DXi.h"\
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\MediaParams.h"\
+	".\ParamEnvelope.h"\
+	".\Parameters.h"\
+	".\StdAfx.h"\
+	".\SynthPlugIn.h"\
+	
+
+.\ParamEnvelope.cpp : \
+	".\include\CakeMedParam.h"\
+	".\include\DeferZeroFill.h"\
+	".\include\DXi.h"\
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\MediaParams.h"\
+	".\ParamEnvelope.h"\
+	".\Parameters.h"\
+	".\StdAfx.h"\
+	".\SynthPlugIn.h"\
+	
+
+.\PlugInApp.cpp : \
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\PlugInApp.h"\
+	".\StdAfx.h"\
+	
+
+.\SoftSynth.cpp : \
+	".\include\CakeMedParam.h"\
+	".\include\DeferZeroFill.h"\
+	".\include\DXi.h"\
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\Instrument.h"\
+	".\MediaParams.h"\
+	".\ParamEnvelope.h"\
+	".\Parameters.h"\
+	".\SoftSynth.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\StdAfx.h"\
+	
+
+.\StringMap.cpp : \
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\StdAfx.h"\
+	".\StringMap.h"\
+	
+
+.\SynthPlugIn.cpp : \
+	".\include\CakeMedParam.h"\
+	".\include\DeferZeroFill.h"\
+	".\include\DXi.h"\
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\MediaParams.h"\
+	".\ParamEnvelope.h"\
+	".\Parameters.h"\
+	".\StdAfx.h"\
+	".\SynthPlugIn.h"\
+	
+
+.\SynthPlugIn.rc : \
+	".\res\SynthPlugIn.rc2"\
+	
+
+.\SynthPlugInPropPage.cpp : \
+	".\include\CakeMedParam.h"\
+	".\include\MfxTime.h"\
+	".\include\MidiFilter.h"\
+	".\Parameters.h"\
+	".\StdAfx.h"\
+	".\SynthPlugInPropPage.h"\
+	

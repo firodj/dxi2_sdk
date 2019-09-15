@@ -1,0 +1,104 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "AllSamples"=AllSamples.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AutoClip
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AutoSynth
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MFCSample
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Sample
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Twonar
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "AutoClip"=".\AutoClip DX\AutoClip.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AutoSynth"=".\AutoSynth DXi\AutoSynth.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MFCSample"=".\MFCSample MFX\MFCSample.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Sample"=".\Sample MFX\Sample.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Twonar"=".\Twonar DXi\Twonar.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

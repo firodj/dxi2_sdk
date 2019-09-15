@@ -1,0 +1,26 @@
+// Twonar.idl : type library source for Twonar.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Twonar.tlb).
+
+[ uuid(e5e58740-63bc-462b-8091-d796880121c1), version(1.0) ]
+library TwonarTypeLibrary
+{
+	importlib("stdole32.tlb");
+	
+	[ uuid(3a7a08fd-9c54-4bf7-b54b-82d8cbf09fff), object, dual ]
+
+	interface ITwonar : IDispatch
+	{
+		// Note: Developer Studio will add properties here whenever
+		// added from the Class view.
+		[propget, helpstring("property Mode")] HRESULT Mode([out, retval] int *pVal);
+		[propput, helpstring("property Mode")] HRESULT Mode([in] int newVal);
+		[propget, helpstring("property IsMultiOut")] HRESULT IsMultiOut([out, retval] BOOL *pVal);
+		[propput, helpstring("property IsMultiOut")] HRESULT IsMultiOut([in] BOOL newVal);
+		[propget, helpstring("property EnableMetro")] HRESULT EnableMetro([out, retval] BOOL *pVal);
+		[propput, helpstring("property EnableMetro")] HRESULT EnableMetro([in] BOOL newVal);
+		[helpstring("method get_MetroInfo")] HRESULT get_MetroInfo(int* pnNoteMeasTop, int* pnVelMeasTop, int* pnNoteBeat, int* pnVelBeat);
+		[helpstring("method put_MetroInfo")] HRESULT put_MetroInfo(int nNoteMeasTop, int nVelMeasTop, int nNoteBeat, int nVelBeat);
+	};
+};

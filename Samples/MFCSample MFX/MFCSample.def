@@ -1,0 +1,10 @@
+; $Header: /Tools/DXi2 SDK/Samples/MFCSample MFX/MFCSample.def 1     5/22/02 1:00p Rkuper $
+
+LIBRARY      "MFCSample"
+DESCRIPTION  'MFCSample MIDI Filter'
+
+EXPORTS
+	DllGetClassObject PRIVATE
+	DllCanUnloadNow PRIVATE
+	DllRegisterServer PRIVATE
+	DllUnregisterServer PRIVATE

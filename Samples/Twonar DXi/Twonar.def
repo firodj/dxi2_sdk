@@ -1,0 +1,7 @@
+LIBRARY         Twonar.dll
+DESCRIPTION     'Twonar DXi'
+EXPORTS
+                DllGetClassObject PRIVATE
+                DllCanUnloadNow PRIVATE
+                DllRegisterServer PRIVATE
+                DllUnregisterServer PRIVATE
